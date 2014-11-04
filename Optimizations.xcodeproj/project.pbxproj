@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5E333551A07E90F004C2116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333541A07E90F004C2116 /* main.m */; };
+		C5E333581A07E90F004C2116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333571A07E90F004C2116 /* AppDelegate.m */; };
+		C5E333601A07E90F004C2116 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E3335F1A07E90F004C2116 /* Images.xcassets */; };
+		C5E333631A07E90F004C2116 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333611A07E90F004C2116 /* LaunchScreen.xib */; };
+		C5E3336F1A07E910004C2116 /* OptimizationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E3336E1A07E910004C2116 /* OptimizationsTests.m */; };
+		C5E333A61A088228004C2116 /* cosmos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5E333A51A088228004C2116 /* cosmos.jpg */; };
+		C5E333C51A088F65004C2116 /* CTGoodLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333AD1A088F65004C2116 /* CTGoodLoopViewController.m */; };
+		C5E333C61A088F65004C2116 /* CTGoodLoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333AE1A088F65004C2116 /* CTGoodLoopViewController.xib */; };
+		C5E333C71A088F65004C2116 /* CTGoodShadowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333B11A088F65004C2116 /* CTGoodShadowTableViewCell.m */; };
+		C5E333C81A088F65004C2116 /* CTGoodShadowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333B31A088F65004C2116 /* CTGoodShadowTableViewController.m */; };
+		C5E333C91A088F65004C2116 /* CTGoodShadowTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333B41A088F65004C2116 /* CTGoodShadowTableViewController.xib */; };
+		C5E333CA1A088F65004C2116 /* CTGoodDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333B71A088F65004C2116 /* CTGoodDateTableViewCell.m */; };
+		C5E333CB1A088F65004C2116 /* CTGoodDateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333B91A088F65004C2116 /* CTGoodDateTableViewController.m */; };
+		C5E333CC1A088F65004C2116 /* CTGoodDateTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333BA1A088F65004C2116 /* CTGoodDateTableViewController.xib */; };
+		C5E333CD1A088F65004C2116 /* NSDateFormatter+CTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333BC1A088F65004C2116 /* NSDateFormatter+CTHelper.m */; };
+		C5E333CE1A088F65004C2116 /* CTHeavyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333BF1A088F65004C2116 /* CTHeavyTableViewCell.m */; };
+		C5E333CF1A088F65004C2116 /* CTGoodReuseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333C11A088F65004C2116 /* CTGoodReuseTableViewController.m */; };
+		C5E333D01A088F65004C2116 /* CTGoodReuseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333C21A088F65004C2116 /* CTGoodReuseTableViewController.xib */; };
+		C5E333D91A0890BB004C2116 /* CTBadLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333D71A0890BB004C2116 /* CTBadLoopViewController.m */; };
+		C5E333DA1A0890BB004C2116 /* CTBadLoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333D81A0890BB004C2116 /* CTBadLoopViewController.xib */; };
+		C5E333DD1A08913D004C2116 /* CTBadShadowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333DC1A08913D004C2116 /* CTBadShadowTableViewCell.m */; };
+		C5E333E11A089175004C2116 /* CTBadShadowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333DF1A089175004C2116 /* CTBadShadowTableViewController.m */; };
+		C5E333E21A089175004C2116 /* CTBadShadowTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333E01A089175004C2116 /* CTBadShadowTableViewController.xib */; };
+		C5E333E51A0891F6004C2116 /* CTBadDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333E41A0891F6004C2116 /* CTBadDateTableViewCell.m */; };
+		C5E333E91A08925D004C2116 /* CTBadDateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333E71A08925D004C2116 /* CTBadDateTableViewController.m */; };
+		C5E333EA1A08925D004C2116 /* CTBadDateTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333E81A08925D004C2116 /* CTBadDateTableViewController.xib */; };
+		C5E333EE1A0892EB004C2116 /* CTBadReuseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333EC1A0892EB004C2116 /* CTBadReuseTableViewController.m */; };
+		C5E333EF1A0892EB004C2116 /* CTBadReuseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333ED1A0892EB004C2116 /* CTBadReuseTableViewController.xib */; };
+		C5E333F31A089398004C2116 /* CTDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333F11A089398004C2116 /* CTDemoTableViewController.m */; };
+		C5E333F41A089398004C2116 /* CTDemoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333F21A089398004C2116 /* CTDemoTableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5E333691A07E910004C2116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5E333471A07E90F004C2116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5E3334E1A07E90F004C2116;
+			remoteInfo = Optimizations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5E3334F1A07E90F004C2116 /* Optimizations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optimizations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E333531A07E90F004C2116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E333541A07E90F004C2116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5E333561A07E90F004C2116 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5E333571A07E90F004C2116 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5E3335F1A07E90F004C2116 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5E333621A07E90F004C2116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C5E333681A07E910004C2116 /* OptimizationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimizationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E3336D1A07E910004C2116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E3336E1A07E910004C2116 /* OptimizationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptimizationsTests.m; sourceTree = "<group>"; };
+		C5E333A51A088228004C2116 /* cosmos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cosmos.jpg; sourceTree = "<group>"; };
+		C5E333AC1A088F65004C2116 /* CTGoodLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodLoopViewController.h; sourceTree = "<group>"; };
+		C5E333AD1A088F65004C2116 /* CTGoodLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodLoopViewController.m; sourceTree = "<group>"; };
+		C5E333AE1A088F65004C2116 /* CTGoodLoopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTGoodLoopViewController.xib; sourceTree = "<group>"; };
+		C5E333B01A088F65004C2116 /* CTGoodShadowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodShadowTableViewCell.h; sourceTree = "<group>"; };
+		C5E333B11A088F65004C2116 /* CTGoodShadowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodShadowTableViewCell.m; sourceTree = "<group>"; };
+		C5E333B21A088F65004C2116 /* CTGoodShadowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodShadowTableViewController.h; sourceTree = "<group>"; };
+		C5E333B31A088F65004C2116 /* CTGoodShadowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodShadowTableViewController.m; sourceTree = "<group>"; };
+		C5E333B41A088F65004C2116 /* CTGoodShadowTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTGoodShadowTableViewController.xib; sourceTree = "<group>"; };
+		C5E333B61A088F65004C2116 /* CTGoodDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodDateTableViewCell.h; sourceTree = "<group>"; };
+		C5E333B71A088F65004C2116 /* CTGoodDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodDateTableViewCell.m; sourceTree = "<group>"; };
+		C5E333B81A088F65004C2116 /* CTGoodDateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodDateTableViewController.h; sourceTree = "<group>"; };
+		C5E333B91A088F65004C2116 /* CTGoodDateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodDateTableViewController.m; sourceTree = "<group>"; };
+		C5E333BA1A088F65004C2116 /* CTGoodDateTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTGoodDateTableViewController.xib; sourceTree = "<group>"; };
+		C5E333BB1A088F65004C2116 /* NSDateFormatter+CTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+CTHelper.h"; sourceTree = "<group>"; };
+		C5E333BC1A088F65004C2116 /* NSDateFormatter+CTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+CTHelper.m"; sourceTree = "<group>"; };
+		C5E333BE1A088F65004C2116 /* CTHeavyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHeavyTableViewCell.h; sourceTree = "<group>"; };
+		C5E333BF1A088F65004C2116 /* CTHeavyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHeavyTableViewCell.m; sourceTree = "<group>"; };
+		C5E333C01A088F65004C2116 /* CTGoodReuseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodReuseTableViewController.h; sourceTree = "<group>"; };
+		C5E333C11A088F65004C2116 /* CTGoodReuseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodReuseTableViewController.m; sourceTree = "<group>"; };
+		C5E333C21A088F65004C2116 /* CTGoodReuseTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTGoodReuseTableViewController.xib; sourceTree = "<group>"; };
+		C5E333D61A0890BB004C2116 /* CTBadLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadLoopViewController.h; sourceTree = "<group>"; };
+		C5E333D71A0890BB004C2116 /* CTBadLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadLoopViewController.m; sourceTree = "<group>"; };
+		C5E333D81A0890BB004C2116 /* CTBadLoopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadLoopViewController.xib; sourceTree = "<group>"; };
+		C5E333DB1A08913D004C2116 /* CTBadShadowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadShadowTableViewCell.h; sourceTree = "<group>"; };
+		C5E333DC1A08913D004C2116 /* CTBadShadowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadShadowTableViewCell.m; sourceTree = "<group>"; };
+		C5E333DE1A089175004C2116 /* CTBadShadowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadShadowTableViewController.h; sourceTree = "<group>"; };
+		C5E333DF1A089175004C2116 /* CTBadShadowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadShadowTableViewController.m; sourceTree = "<group>"; };
+		C5E333E01A089175004C2116 /* CTBadShadowTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadShadowTableViewController.xib; sourceTree = "<group>"; };
+		C5E333E31A0891F6004C2116 /* CTBadDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadDateTableViewCell.h; sourceTree = "<group>"; };
+		C5E333E41A0891F6004C2116 /* CTBadDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadDateTableViewCell.m; sourceTree = "<group>"; };
+		C5E333E61A08925D004C2116 /* CTBadDateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadDateTableViewController.h; sourceTree = "<group>"; };
+		C5E333E71A08925D004C2116 /* CTBadDateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadDateTableViewController.m; sourceTree = "<group>"; };
+		C5E333E81A08925D004C2116 /* CTBadDateTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadDateTableViewController.xib; sourceTree = "<group>"; };
+		C5E333EB1A0892EB004C2116 /* CTBadReuseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadReuseTableViewController.h; sourceTree = "<group>"; };
+		C5E333EC1A0892EB004C2116 /* CTBadReuseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadReuseTableViewController.m; sourceTree = "<group>"; };
+		C5E333ED1A0892EB004C2116 /* CTBadReuseTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadReuseTableViewController.xib; sourceTree = "<group>"; };
+		C5E333F01A089398004C2116 /* CTDemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDemoTableViewController.h; sourceTree = "<group>"; };
+		C5E333F11A089398004C2116 /* CTDemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDemoTableViewController.m; sourceTree = "<group>"; };
+		C5E333F21A089398004C2116 /* CTDemoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTDemoTableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5E3334C1A07E90F004C2116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E333651A07E910004C2116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5E333461A07E90F004C2116 = {
+			isa = PBXGroup;
+			children = (
+				C5E333511A07E90F004C2116 /* Optimizations */,
+				C5E3336B1A07E910004C2116 /* OptimizationsTests */,
+				C5E333501A07E90F004C2116 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5E333501A07E90F004C2116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5E3334F1A07E90F004C2116 /* Optimizations.app */,
+				C5E333681A07E910004C2116 /* OptimizationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5E333511A07E90F004C2116 /* Optimizations */ = {
+			isa = PBXGroup;
+			children = (
+				C5E333AB1A088F65004C2116 /* LoopDemo */,
+				C5E333AF1A088F65004C2116 /* ShadowCellDemo */,
+				C5E333B51A088F65004C2116 /* DateFormatterDemo */,
+				C5E333BD1A088F65004C2116 /* TableViewCellReuseDemo */,
+				C5E333A51A088228004C2116 /* cosmos.jpg */,
+				C5E333561A07E90F004C2116 /* AppDelegate.h */,
+				C5E333571A07E90F004C2116 /* AppDelegate.m */,
+				C5E3335F1A07E90F004C2116 /* Images.xcassets */,
+				C5E333611A07E90F004C2116 /* LaunchScreen.xib */,
+				C5E333521A07E90F004C2116 /* Supporting Files */,
+				C5E333F01A089398004C2116 /* CTDemoTableViewController.h */,
+				C5E333F11A089398004C2116 /* CTDemoTableViewController.m */,
+				C5E333F21A089398004C2116 /* CTDemoTableViewController.xib */,
+			);
+			path = Optimizations;
+			sourceTree = "<group>";
+		};
+		C5E333521A07E90F004C2116 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5E333531A07E90F004C2116 /* Info.plist */,
+				C5E333541A07E90F004C2116 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5E3336B1A07E910004C2116 /* OptimizationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5E3336E1A07E910004C2116 /* OptimizationsTests.m */,
+				C5E3336C1A07E910004C2116 /* Supporting Files */,
+			);
+			path = OptimizationsTests;
+			sourceTree = "<group>";
+		};
+		C5E3336C1A07E910004C2116 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5E3336D1A07E910004C2116 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5E333AB1A088F65004C2116 /* LoopDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5E333AC1A088F65004C2116 /* CTGoodLoopViewController.h */,
+				C5E333AD1A088F65004C2116 /* CTGoodLoopViewController.m */,
+				C5E333AE1A088F65004C2116 /* CTGoodLoopViewController.xib */,
+				C5E333D61A0890BB004C2116 /* CTBadLoopViewController.h */,
+				C5E333D71A0890BB004C2116 /* CTBadLoopViewController.m */,
+				C5E333D81A0890BB004C2116 /* CTBadLoopViewController.xib */,
+			);
+			path = LoopDemo;
+			sourceTree = "<group>";
+		};
+		C5E333AF1A088F65004C2116 /* ShadowCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5E333B01A088F65004C2116 /* CTGoodShadowTableViewCell.h */,
+				C5E333B11A088F65004C2116 /* CTGoodShadowTableViewCell.m */,
+				C5E333B21A088F65004C2116 /* CTGoodShadowTableViewController.h */,
+				C5E333B31A088F65004C2116 /* CTGoodShadowTableViewController.m */,
+				C5E333B41A088F65004C2116 /* CTGoodShadowTableViewController.xib */,
+				C5E333DB1A08913D004C2116 /* CTBadShadowTableViewCell.h */,
+				C5E333DC1A08913D004C2116 /* CTBadShadowTableViewCell.m */,
+				C5E333DE1A089175004C2116 /* CTBadShadowTableViewController.h */,
+				C5E333DF1A089175004C2116 /* CTBadShadowTableViewController.m */,
+				C5E333E01A089175004C2116 /* CTBadShadowTableViewController.xib */,
+			);
+			path = ShadowCellDemo;
+			sourceTree = "<group>";
+		};
+		C5E333B51A088F65004C2116 /* DateFormatterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5E333B61A088F65004C2116 /* CTGoodDateTableViewCell.h */,
+				C5E333B71A088F65004C2116 /* CTGoodDateTableViewCell.m */,
+				C5E333B81A088F65004C2116 /* CTGoodDateTableViewController.h */,
+				C5E333B91A088F65004C2116 /* CTGoodDateTableViewController.m */,
+				C5E333BA1A088F65004C2116 /* CTGoodDateTableViewController.xib */,
+				C5E333BB1A088F65004C2116 /* NSDateFormatter+CTHelper.h */,
+				C5E333BC1A088F65004C2116 /* NSDateFormatter+CTHelper.m */,
+				C5E333E31A0891F6004C2116 /* CTBadDateTableViewCell.h */,
+				C5E333E41A0891F6004C2116 /* CTBadDateTableViewCell.m */,
+				C5E333E61A08925D004C2116 /* CTBadDateTableViewController.h */,
+				C5E333E71A08925D004C2116 /* CTBadDateTableViewController.m */,
+				C5E333E81A08925D004C2116 /* CTBadDateTableViewController.xib */,
+			);
+			path = DateFormatterDemo;
+			sourceTree = "<group>";
+		};
+		C5E333BD1A088F65004C2116 /* TableViewCellReuseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5E333BE1A088F65004C2116 /* CTHeavyTableViewCell.h */,
+				C5E333BF1A088F65004C2116 /* CTHeavyTableViewCell.m */,
+				C5E333C01A088F65004C2116 /* CTGoodReuseTableViewController.h */,
+				C5E333C11A088F65004C2116 /* CTGoodReuseTableViewController.m */,
+				C5E333C21A088F65004C2116 /* CTGoodReuseTableViewController.xib */,
+				C5E333EB1A0892EB004C2116 /* CTBadReuseTableViewController.h */,
+				C5E333EC1A0892EB004C2116 /* CTBadReuseTableViewController.m */,
+				C5E333ED1A0892EB004C2116 /* CTBadReuseTableViewController.xib */,
+			);
+			path = TableViewCellReuseDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5E3334E1A07E90F004C2116 /* Optimizations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E333721A07E910004C2116 /* Build configuration list for PBXNativeTarget "Optimizations" */;
+			buildPhases = (
+				C5E3334B1A07E90F004C2116 /* Sources */,
+				C5E3334C1A07E90F004C2116 /* Frameworks */,
+				C5E3334D1A07E90F004C2116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Optimizations;
+			productName = Optimizations;
+			productReference = C5E3334F1A07E90F004C2116 /* Optimizations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5E333671A07E910004C2116 /* OptimizationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E333751A07E910004C2116 /* Build configuration list for PBXNativeTarget "OptimizationsTests" */;
+			buildPhases = (
+				C5E333641A07E910004C2116 /* Sources */,
+				C5E333651A07E910004C2116 /* Frameworks */,
+				C5E333661A07E910004C2116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5E3336A1A07E910004C2116 /* PBXTargetDependency */,
+			);
+			name = OptimizationsTests;
+			productName = OptimizationsTests;
+			productReference = C5E333681A07E910004C2116 /* OptimizationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5E333471A07E90F004C2116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Crowdtilt;
+				TargetAttributes = {
+					C5E3334E1A07E90F004C2116 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C5E333671A07E910004C2116 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C5E3334E1A07E90F004C2116;
+					};
+				};
+			};
+			buildConfigurationList = C5E3334A1A07E90F004C2116 /* Build configuration list for PBXProject "Optimizations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5E333461A07E90F004C2116;
+			productRefGroup = C5E333501A07E90F004C2116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5E3334E1A07E90F004C2116 /* Optimizations */,
+				C5E333671A07E910004C2116 /* OptimizationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5E3334D1A07E90F004C2116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E333DA1A0890BB004C2116 /* CTBadLoopViewController.xib in Resources */,
+				C5E333E21A089175004C2116 /* CTBadShadowTableViewController.xib in Resources */,
+				C5E333CC1A088F65004C2116 /* CTGoodDateTableViewController.xib in Resources */,
+				C5E333EA1A08925D004C2116 /* CTBadDateTableViewController.xib in Resources */,
+				C5E333EF1A0892EB004C2116 /* CTBadReuseTableViewController.xib in Resources */,
+				C5E333F41A089398004C2116 /* CTDemoTableViewController.xib in Resources */,
+				C5E333631A07E90F004C2116 /* LaunchScreen.xib in Resources */,
+				C5E333C91A088F65004C2116 /* CTGoodShadowTableViewController.xib in Resources */,
+				C5E333601A07E90F004C2116 /* Images.xcassets in Resources */,
+				C5E333C61A088F65004C2116 /* CTGoodLoopViewController.xib in Resources */,
+				C5E333D01A088F65004C2116 /* CTGoodReuseTableViewController.xib in Resources */,
+				C5E333A61A088228004C2116 /* cosmos.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E333661A07E910004C2116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5E3334B1A07E90F004C2116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E333CA1A088F65004C2116 /* CTGoodDateTableViewCell.m in Sources */,
+				C5E333F31A089398004C2116 /* CTDemoTableViewController.m in Sources */,
+				C5E333E51A0891F6004C2116 /* CTBadDateTableViewCell.m in Sources */,
+				C5E333D91A0890BB004C2116 /* CTBadLoopViewController.m in Sources */,
+				C5E333CB1A088F65004C2116 /* CTGoodDateTableViewController.m in Sources */,
+				C5E333CD1A088F65004C2116 /* NSDateFormatter+CTHelper.m in Sources */,
+				C5E333C51A088F65004C2116 /* CTGoodLoopViewController.m in Sources */,
+				C5E333CF1A088F65004C2116 /* CTGoodReuseTableViewController.m in Sources */,
+				C5E333C81A088F65004C2116 /* CTGoodShadowTableViewController.m in Sources */,
+				C5E333E91A08925D004C2116 /* CTBadDateTableViewController.m in Sources */,
+				C5E333CE1A088F65004C2116 /* CTHeavyTableViewCell.m in Sources */,
+				C5E333DD1A08913D004C2116 /* CTBadShadowTableViewCell.m in Sources */,
+				C5E333581A07E90F004C2116 /* AppDelegate.m in Sources */,
+				C5E333EE1A0892EB004C2116 /* CTBadReuseTableViewController.m in Sources */,
+				C5E333C71A088F65004C2116 /* CTGoodShadowTableViewCell.m in Sources */,
+				C5E333E11A089175004C2116 /* CTBadShadowTableViewController.m in Sources */,
+				C5E333551A07E90F004C2116 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E333641A07E910004C2116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E3336F1A07E910004C2116 /* OptimizationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5E3336A1A07E910004C2116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5E3334E1A07E90F004C2116 /* Optimizations */;
+			targetProxy = C5E333691A07E910004C2116 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5E333611A07E90F004C2116 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5E333621A07E90F004C2116 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5E333701A07E910004C2116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5E333711A07E910004C2116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5E333731A07E910004C2116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Optimizations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5E333741A07E910004C2116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Optimizations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5E333761A07E910004C2116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OptimizationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optimizations.app/Optimizations";
+			};
+			name = Debug;
+		};
+		C5E333771A07E910004C2116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OptimizationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optimizations.app/Optimizations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5E3334A1A07E90F004C2116 /* Build configuration list for PBXProject "Optimizations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E333701A07E910004C2116 /* Debug */,
+				C5E333711A07E910004C2116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E333721A07E910004C2116 /* Build configuration list for PBXNativeTarget "Optimizations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E333731A07E910004C2116 /* Debug */,
+				C5E333741A07E910004C2116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5E333751A07E910004C2116 /* Build configuration list for PBXNativeTarget "OptimizationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E333761A07E910004C2116 /* Debug */,
+				C5E333771A07E910004C2116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5E333471A07E90F004C2116 /* Project object */;
+}
