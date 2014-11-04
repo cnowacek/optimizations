@@ -10,8 +10,22 @@
 
 #import "CTHeavyTableViewCell.h"
 
+@interface CTBadReuseTableViewController ()
+
+@property (nonatomic, copy) void (^actionBlock)();
+
+@end
+
 @implementation CTBadReuseTableViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.actionBlock = ^() {
+        self.tableView.hidden = NO;
+    };
+    
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 1000;
 }
