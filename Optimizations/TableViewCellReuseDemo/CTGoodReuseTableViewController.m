@@ -10,10 +10,21 @@
 
 #import "CTHeavyTableViewCell.h"
 
+@interface CTGoodReuseTableViewController ()
+
+@property (nonatomic, copy) void (^actionBlock)();
+
+@end
+
 @implementation CTGoodReuseTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    __weak typeof(self) wself = self;
+    self.actionBlock = ^() {
+        wself.tableView.hidden = NO;
+    };
     
     [self.tableView registerClass:[CTHeavyTableViewCell class] forCellReuseIdentifier:@"HeavyCell"];
 }
