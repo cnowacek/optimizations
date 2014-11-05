@@ -18,7 +18,6 @@
 		C5E333C71A088F65004C2116 /* CTGoodShadowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333B11A088F65004C2116 /* CTGoodShadowTableViewCell.m */; };
 		C5E333C81A088F65004C2116 /* CTGoodShadowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333B31A088F65004C2116 /* CTGoodShadowTableViewController.m */; };
 		C5E333C91A088F65004C2116 /* CTGoodShadowTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333B41A088F65004C2116 /* CTGoodShadowTableViewController.xib */; };
-		C5E333CA1A088F65004C2116 /* CTGoodDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333B71A088F65004C2116 /* CTGoodDateTableViewCell.m */; };
 		C5E333CB1A088F65004C2116 /* CTGoodDateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333B91A088F65004C2116 /* CTGoodDateTableViewController.m */; };
 		C5E333CC1A088F65004C2116 /* CTGoodDateTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333BA1A088F65004C2116 /* CTGoodDateTableViewController.xib */; };
 		C5E333CD1A088F65004C2116 /* NSDateFormatter+CTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333BC1A088F65004C2116 /* NSDateFormatter+CTHelper.m */; };
@@ -30,7 +29,6 @@
 		C5E333DD1A08913D004C2116 /* CTBadShadowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333DC1A08913D004C2116 /* CTBadShadowTableViewCell.m */; };
 		C5E333E11A089175004C2116 /* CTBadShadowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333DF1A089175004C2116 /* CTBadShadowTableViewController.m */; };
 		C5E333E21A089175004C2116 /* CTBadShadowTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333E01A089175004C2116 /* CTBadShadowTableViewController.xib */; };
-		C5E333E51A0891F6004C2116 /* CTBadDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333E41A0891F6004C2116 /* CTBadDateTableViewCell.m */; };
 		C5E333E91A08925D004C2116 /* CTBadDateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333E71A08925D004C2116 /* CTBadDateTableViewController.m */; };
 		C5E333EA1A08925D004C2116 /* CTBadDateTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333E81A08925D004C2116 /* CTBadDateTableViewController.xib */; };
 		C5E333EE1A0892EB004C2116 /* CTBadReuseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333EC1A0892EB004C2116 /* CTBadReuseTableViewController.m */; };
@@ -69,8 +67,6 @@
 		C5E333B21A088F65004C2116 /* CTGoodShadowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodShadowTableViewController.h; sourceTree = "<group>"; };
 		C5E333B31A088F65004C2116 /* CTGoodShadowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodShadowTableViewController.m; sourceTree = "<group>"; };
 		C5E333B41A088F65004C2116 /* CTGoodShadowTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTGoodShadowTableViewController.xib; sourceTree = "<group>"; };
-		C5E333B61A088F65004C2116 /* CTGoodDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodDateTableViewCell.h; sourceTree = "<group>"; };
-		C5E333B71A088F65004C2116 /* CTGoodDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodDateTableViewCell.m; sourceTree = "<group>"; };
 		C5E333B81A088F65004C2116 /* CTGoodDateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodDateTableViewController.h; sourceTree = "<group>"; };
 		C5E333B91A088F65004C2116 /* CTGoodDateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodDateTableViewController.m; sourceTree = "<group>"; };
 		C5E333BA1A088F65004C2116 /* CTGoodDateTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTGoodDateTableViewController.xib; sourceTree = "<group>"; };
@@ -89,8 +85,6 @@
 		C5E333DE1A089175004C2116 /* CTBadShadowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadShadowTableViewController.h; sourceTree = "<group>"; };
 		C5E333DF1A089175004C2116 /* CTBadShadowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadShadowTableViewController.m; sourceTree = "<group>"; };
 		C5E333E01A089175004C2116 /* CTBadShadowTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadShadowTableViewController.xib; sourceTree = "<group>"; };
-		C5E333E31A0891F6004C2116 /* CTBadDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadDateTableViewCell.h; sourceTree = "<group>"; };
-		C5E333E41A0891F6004C2116 /* CTBadDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadDateTableViewCell.m; sourceTree = "<group>"; };
 		C5E333E61A08925D004C2116 /* CTBadDateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadDateTableViewController.h; sourceTree = "<group>"; };
 		C5E333E71A08925D004C2116 /* CTBadDateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadDateTableViewController.m; sourceTree = "<group>"; };
 		C5E333E81A08925D004C2116 /* CTBadDateTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadDateTableViewController.xib; sourceTree = "<group>"; };
@@ -217,15 +211,11 @@
 		C5E333B51A088F65004C2116 /* DateFormatterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C5E333B61A088F65004C2116 /* CTGoodDateTableViewCell.h */,
-				C5E333B71A088F65004C2116 /* CTGoodDateTableViewCell.m */,
 				C5E333B81A088F65004C2116 /* CTGoodDateTableViewController.h */,
 				C5E333B91A088F65004C2116 /* CTGoodDateTableViewController.m */,
 				C5E333BA1A088F65004C2116 /* CTGoodDateTableViewController.xib */,
 				C5E333BB1A088F65004C2116 /* NSDateFormatter+CTHelper.h */,
 				C5E333BC1A088F65004C2116 /* NSDateFormatter+CTHelper.m */,
-				C5E333E31A0891F6004C2116 /* CTBadDateTableViewCell.h */,
-				C5E333E41A0891F6004C2116 /* CTBadDateTableViewCell.m */,
 				C5E333E61A08925D004C2116 /* CTBadDateTableViewController.h */,
 				C5E333E71A08925D004C2116 /* CTBadDateTableViewController.m */,
 				C5E333E81A08925D004C2116 /* CTBadDateTableViewController.xib */,
@@ -357,9 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E333CA1A088F65004C2116 /* CTGoodDateTableViewCell.m in Sources */,
 				C5E333F31A089398004C2116 /* CTDemoTableViewController.m in Sources */,
-				C5E333E51A0891F6004C2116 /* CTBadDateTableViewCell.m in Sources */,
 				C5E333D91A0890BB004C2116 /* CTBadLoopViewController.m in Sources */,
 				C5E333CB1A088F65004C2116 /* CTGoodDateTableViewController.m in Sources */,
 				C5E333CD1A088F65004C2116 /* NSDateFormatter+CTHelper.m in Sources */,
@@ -558,6 +546,7 @@
 				C5E333741A07E910004C2116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5E333751A07E910004C2116 /* Build configuration list for PBXNativeTarget "OptimizationsTests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +555,7 @@
 				C5E333771A07E910004C2116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

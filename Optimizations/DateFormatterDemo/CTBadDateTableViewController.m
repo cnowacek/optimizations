@@ -8,14 +8,13 @@
 
 #import "CTBadDateTableViewController.h"
 
-#import "CTBadDateTableViewCell.h"
 
 @implementation CTBadDateTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.tableView registerClass:[CTBadDateTableViewCell class] forCellReuseIdentifier:@"DateCell"];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"DateCell"];
 }
 
 #pragma mark - Table view data source
@@ -25,8 +24,14 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    CTBadDateTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DateCell" forIndexPath:indexPath];
-    cell.date = [NSDate date];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DateCell" forIndexPath:indexPath];
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"hh:mm:ss.SSS a";
+    NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+    
+    cell.textLabel.text = dateString;
+
     return cell;
 }
 
