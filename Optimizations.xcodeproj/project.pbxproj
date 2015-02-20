@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5CB28B01A9690FD000C23BF /* CTManualHeavyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB28AF1A9690FD000C23BF /* CTManualHeavyTableViewCell.m */; };
+		C5CB28B31A96913B000C23BF /* CTAutoResizedHeavyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB28B21A96913B000C23BF /* CTAutoResizedHeavyTableViewCell.m */; };
+		C5CB28BC1A9693EA000C23BF /* CTManualTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB28BA1A9693EA000C23BF /* CTManualTableViewController.m */; };
+		C5CB28BD1A9693EA000C23BF /* CTManualTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CB28BB1A9693EA000C23BF /* CTManualTableViewController.xib */; };
+		C5CB28C11A9694C3000C23BF /* CTAutoresizedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB28BF1A9694C3000C23BF /* CTAutoresizedTableViewController.m */; };
+		C5CB28C21A9694C3000C23BF /* CTAutoresizedTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CB28C01A9694C3000C23BF /* CTAutoresizedTableViewController.xib */; };
 		C5E333551A07E90F004C2116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333541A07E90F004C2116 /* main.m */; };
 		C5E333581A07E90F004C2116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333571A07E90F004C2116 /* AppDelegate.m */; };
 		C5E333601A07E90F004C2116 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E3335F1A07E90F004C2116 /* Images.xcassets */; };
@@ -22,8 +28,8 @@
 		C5E333CC1A088F65004C2116 /* CTGoodDateTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333BA1A088F65004C2116 /* CTGoodDateTableViewController.xib */; };
 		C5E333CD1A088F65004C2116 /* NSDateFormatter+CTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333BC1A088F65004C2116 /* NSDateFormatter+CTHelper.m */; };
 		C5E333CE1A088F65004C2116 /* CTHeavyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333BF1A088F65004C2116 /* CTHeavyTableViewCell.m */; };
-		C5E333CF1A088F65004C2116 /* CTGoodReuseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333C11A088F65004C2116 /* CTGoodReuseTableViewController.m */; };
-		C5E333D01A088F65004C2116 /* CTGoodReuseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333C21A088F65004C2116 /* CTGoodReuseTableViewController.xib */; };
+		C5E333CF1A088F65004C2116 /* CTGoodBlockTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333C11A088F65004C2116 /* CTGoodBlockTableViewController.m */; };
+		C5E333D01A088F65004C2116 /* CTGoodBlockTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333C21A088F65004C2116 /* CTGoodBlockTableViewController.xib */; };
 		C5E333D91A0890BB004C2116 /* CTBadLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333D71A0890BB004C2116 /* CTBadLoopViewController.m */; };
 		C5E333DA1A0890BB004C2116 /* CTBadLoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333D81A0890BB004C2116 /* CTBadLoopViewController.xib */; };
 		C5E333DD1A08913D004C2116 /* CTBadShadowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333DC1A08913D004C2116 /* CTBadShadowTableViewCell.m */; };
@@ -31,8 +37,8 @@
 		C5E333E21A089175004C2116 /* CTBadShadowTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333E01A089175004C2116 /* CTBadShadowTableViewController.xib */; };
 		C5E333E91A08925D004C2116 /* CTBadDateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333E71A08925D004C2116 /* CTBadDateTableViewController.m */; };
 		C5E333EA1A08925D004C2116 /* CTBadDateTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333E81A08925D004C2116 /* CTBadDateTableViewController.xib */; };
-		C5E333EE1A0892EB004C2116 /* CTBadReuseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333EC1A0892EB004C2116 /* CTBadReuseTableViewController.m */; };
-		C5E333EF1A0892EB004C2116 /* CTBadReuseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333ED1A0892EB004C2116 /* CTBadReuseTableViewController.xib */; };
+		C5E333EE1A0892EB004C2116 /* CTBadBlockTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333EC1A0892EB004C2116 /* CTBadBlockTableViewController.m */; };
+		C5E333EF1A0892EB004C2116 /* CTBadBlockTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333ED1A0892EB004C2116 /* CTBadBlockTableViewController.xib */; };
 		C5E333F31A089398004C2116 /* CTDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E333F11A089398004C2116 /* CTDemoTableViewController.m */; };
 		C5E333F41A089398004C2116 /* CTDemoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E333F21A089398004C2116 /* CTDemoTableViewController.xib */; };
 /* End PBXBuildFile section */
@@ -48,6 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5CB28AE1A9690FD000C23BF /* CTManualHeavyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTManualHeavyTableViewCell.h; sourceTree = "<group>"; };
+		C5CB28AF1A9690FD000C23BF /* CTManualHeavyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTManualHeavyTableViewCell.m; sourceTree = "<group>"; };
+		C5CB28B11A96913B000C23BF /* CTAutoResizedHeavyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAutoResizedHeavyTableViewCell.h; sourceTree = "<group>"; };
+		C5CB28B21A96913B000C23BF /* CTAutoResizedHeavyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAutoResizedHeavyTableViewCell.m; sourceTree = "<group>"; };
+		C5CB28B41A9691D3000C23BF /* CTAutolayoutHeavyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAutolayoutHeavyTableViewCell.h; sourceTree = "<group>"; };
+		C5CB28B91A9693EA000C23BF /* CTManualTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTManualTableViewController.h; sourceTree = "<group>"; };
+		C5CB28BA1A9693EA000C23BF /* CTManualTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTManualTableViewController.m; sourceTree = "<group>"; };
+		C5CB28BB1A9693EA000C23BF /* CTManualTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTManualTableViewController.xib; sourceTree = "<group>"; };
+		C5CB28BE1A9694C3000C23BF /* CTAutoresizedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAutoresizedTableViewController.h; sourceTree = "<group>"; };
+		C5CB28BF1A9694C3000C23BF /* CTAutoresizedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAutoresizedTableViewController.m; sourceTree = "<group>"; };
+		C5CB28C01A9694C3000C23BF /* CTAutoresizedTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTAutoresizedTableViewController.xib; sourceTree = "<group>"; };
 		C5E3334F1A07E90F004C2116 /* Optimizations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optimizations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E333531A07E90F004C2116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5E333541A07E90F004C2116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,9 +91,9 @@
 		C5E333BC1A088F65004C2116 /* NSDateFormatter+CTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+CTHelper.m"; sourceTree = "<group>"; };
 		C5E333BE1A088F65004C2116 /* CTHeavyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTHeavyTableViewCell.h; sourceTree = "<group>"; };
 		C5E333BF1A088F65004C2116 /* CTHeavyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHeavyTableViewCell.m; sourceTree = "<group>"; };
-		C5E333C01A088F65004C2116 /* CTGoodReuseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodReuseTableViewController.h; sourceTree = "<group>"; };
-		C5E333C11A088F65004C2116 /* CTGoodReuseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodReuseTableViewController.m; sourceTree = "<group>"; };
-		C5E333C21A088F65004C2116 /* CTGoodReuseTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTGoodReuseTableViewController.xib; sourceTree = "<group>"; };
+		C5E333C01A088F65004C2116 /* CTGoodBlockTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGoodBlockTableViewController.h; sourceTree = "<group>"; };
+		C5E333C11A088F65004C2116 /* CTGoodBlockTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGoodBlockTableViewController.m; sourceTree = "<group>"; };
+		C5E333C21A088F65004C2116 /* CTGoodBlockTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTGoodBlockTableViewController.xib; sourceTree = "<group>"; };
 		C5E333D61A0890BB004C2116 /* CTBadLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadLoopViewController.h; sourceTree = "<group>"; };
 		C5E333D71A0890BB004C2116 /* CTBadLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadLoopViewController.m; sourceTree = "<group>"; };
 		C5E333D81A0890BB004C2116 /* CTBadLoopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadLoopViewController.xib; sourceTree = "<group>"; };
@@ -88,9 +105,9 @@
 		C5E333E61A08925D004C2116 /* CTBadDateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadDateTableViewController.h; sourceTree = "<group>"; };
 		C5E333E71A08925D004C2116 /* CTBadDateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadDateTableViewController.m; sourceTree = "<group>"; };
 		C5E333E81A08925D004C2116 /* CTBadDateTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadDateTableViewController.xib; sourceTree = "<group>"; };
-		C5E333EB1A0892EB004C2116 /* CTBadReuseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadReuseTableViewController.h; sourceTree = "<group>"; };
-		C5E333EC1A0892EB004C2116 /* CTBadReuseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadReuseTableViewController.m; sourceTree = "<group>"; };
-		C5E333ED1A0892EB004C2116 /* CTBadReuseTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadReuseTableViewController.xib; sourceTree = "<group>"; };
+		C5E333EB1A0892EB004C2116 /* CTBadBlockTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBadBlockTableViewController.h; sourceTree = "<group>"; };
+		C5E333EC1A0892EB004C2116 /* CTBadBlockTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBadBlockTableViewController.m; sourceTree = "<group>"; };
+		C5E333ED1A0892EB004C2116 /* CTBadBlockTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTBadBlockTableViewController.xib; sourceTree = "<group>"; };
 		C5E333F01A089398004C2116 /* CTDemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDemoTableViewController.h; sourceTree = "<group>"; };
 		C5E333F11A089398004C2116 /* CTDemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDemoTableViewController.m; sourceTree = "<group>"; };
 		C5E333F21A089398004C2116 /* CTDemoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTDemoTableViewController.xib; sourceTree = "<group>"; };
@@ -114,6 +131,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5CB28AD1A9690FD000C23BF /* CellsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB28AE1A9690FD000C23BF /* CTManualHeavyTableViewCell.h */,
+				C5CB28AF1A9690FD000C23BF /* CTManualHeavyTableViewCell.m */,
+				C5CB28B11A96913B000C23BF /* CTAutoResizedHeavyTableViewCell.h */,
+				C5CB28B21A96913B000C23BF /* CTAutoResizedHeavyTableViewCell.m */,
+				C5CB28B41A9691D3000C23BF /* CTAutolayoutHeavyTableViewCell.h */,
+				C5CB28B91A9693EA000C23BF /* CTManualTableViewController.h */,
+				C5CB28BA1A9693EA000C23BF /* CTManualTableViewController.m */,
+				C5CB28BB1A9693EA000C23BF /* CTManualTableViewController.xib */,
+				C5CB28BE1A9694C3000C23BF /* CTAutoresizedTableViewController.h */,
+				C5CB28BF1A9694C3000C23BF /* CTAutoresizedTableViewController.m */,
+				C5CB28C01A9694C3000C23BF /* CTAutoresizedTableViewController.xib */,
+			);
+			path = CellsDemo;
+			sourceTree = "<group>";
+		};
 		C5E333461A07E90F004C2116 = {
 			isa = PBXGroup;
 			children = (
@@ -135,10 +170,11 @@
 		C5E333511A07E90F004C2116 /* Optimizations */ = {
 			isa = PBXGroup;
 			children = (
+				C5CB28AD1A9690FD000C23BF /* CellsDemo */,
 				C5E333AB1A088F65004C2116 /* LoopDemo */,
 				C5E333AF1A088F65004C2116 /* ShadowCellDemo */,
 				C5E333B51A088F65004C2116 /* DateFormatterDemo */,
-				C5E333BD1A088F65004C2116 /* TableViewCellReuseDemo */,
+				C5E333BD1A088F65004C2116 /* BlockRetainDemo */,
 				C5E333A51A088228004C2116 /* cosmos.jpg */,
 				C5E333561A07E90F004C2116 /* AppDelegate.h */,
 				C5E333571A07E90F004C2116 /* AppDelegate.m */,
@@ -223,19 +259,19 @@
 			path = DateFormatterDemo;
 			sourceTree = "<group>";
 		};
-		C5E333BD1A088F65004C2116 /* TableViewCellReuseDemo */ = {
+		C5E333BD1A088F65004C2116 /* BlockRetainDemo */ = {
 			isa = PBXGroup;
 			children = (
 				C5E333BE1A088F65004C2116 /* CTHeavyTableViewCell.h */,
 				C5E333BF1A088F65004C2116 /* CTHeavyTableViewCell.m */,
-				C5E333C01A088F65004C2116 /* CTGoodReuseTableViewController.h */,
-				C5E333C11A088F65004C2116 /* CTGoodReuseTableViewController.m */,
-				C5E333C21A088F65004C2116 /* CTGoodReuseTableViewController.xib */,
-				C5E333EB1A0892EB004C2116 /* CTBadReuseTableViewController.h */,
-				C5E333EC1A0892EB004C2116 /* CTBadReuseTableViewController.m */,
-				C5E333ED1A0892EB004C2116 /* CTBadReuseTableViewController.xib */,
+				C5E333C01A088F65004C2116 /* CTGoodBlockTableViewController.h */,
+				C5E333C11A088F65004C2116 /* CTGoodBlockTableViewController.m */,
+				C5E333C21A088F65004C2116 /* CTGoodBlockTableViewController.xib */,
+				C5E333EB1A0892EB004C2116 /* CTBadBlockTableViewController.h */,
+				C5E333EC1A0892EB004C2116 /* CTBadBlockTableViewController.m */,
+				C5E333ED1A0892EB004C2116 /* CTBadBlockTableViewController.xib */,
 			);
-			path = TableViewCellReuseDemo;
+			path = BlockRetainDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,16 +355,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5E333DA1A0890BB004C2116 /* CTBadLoopViewController.xib in Resources */,
+				C5CB28C21A9694C3000C23BF /* CTAutoresizedTableViewController.xib in Resources */,
 				C5E333E21A089175004C2116 /* CTBadShadowTableViewController.xib in Resources */,
 				C5E333CC1A088F65004C2116 /* CTGoodDateTableViewController.xib in Resources */,
 				C5E333EA1A08925D004C2116 /* CTBadDateTableViewController.xib in Resources */,
-				C5E333EF1A0892EB004C2116 /* CTBadReuseTableViewController.xib in Resources */,
+				C5E333EF1A0892EB004C2116 /* CTBadBlockTableViewController.xib in Resources */,
 				C5E333F41A089398004C2116 /* CTDemoTableViewController.xib in Resources */,
+				C5CB28BD1A9693EA000C23BF /* CTManualTableViewController.xib in Resources */,
 				C5E333631A07E90F004C2116 /* LaunchScreen.xib in Resources */,
 				C5E333C91A088F65004C2116 /* CTGoodShadowTableViewController.xib in Resources */,
 				C5E333601A07E90F004C2116 /* Images.xcassets in Resources */,
 				C5E333C61A088F65004C2116 /* CTGoodLoopViewController.xib in Resources */,
-				C5E333D01A088F65004C2116 /* CTGoodReuseTableViewController.xib in Resources */,
+				C5E333D01A088F65004C2116 /* CTGoodBlockTableViewController.xib in Resources */,
 				C5E333A61A088228004C2116 /* cosmos.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,13 +390,17 @@
 				C5E333CB1A088F65004C2116 /* CTGoodDateTableViewController.m in Sources */,
 				C5E333CD1A088F65004C2116 /* NSDateFormatter+CTHelper.m in Sources */,
 				C5E333C51A088F65004C2116 /* CTGoodLoopViewController.m in Sources */,
-				C5E333CF1A088F65004C2116 /* CTGoodReuseTableViewController.m in Sources */,
+				C5E333CF1A088F65004C2116 /* CTGoodBlockTableViewController.m in Sources */,
+				C5CB28C11A9694C3000C23BF /* CTAutoresizedTableViewController.m in Sources */,
 				C5E333C81A088F65004C2116 /* CTGoodShadowTableViewController.m in Sources */,
 				C5E333E91A08925D004C2116 /* CTBadDateTableViewController.m in Sources */,
+				C5CB28BC1A9693EA000C23BF /* CTManualTableViewController.m in Sources */,
 				C5E333CE1A088F65004C2116 /* CTHeavyTableViewCell.m in Sources */,
 				C5E333DD1A08913D004C2116 /* CTBadShadowTableViewCell.m in Sources */,
+				C5CB28B31A96913B000C23BF /* CTAutoResizedHeavyTableViewCell.m in Sources */,
 				C5E333581A07E90F004C2116 /* AppDelegate.m in Sources */,
-				C5E333EE1A0892EB004C2116 /* CTBadReuseTableViewController.m in Sources */,
+				C5E333EE1A0892EB004C2116 /* CTBadBlockTableViewController.m in Sources */,
+				C5CB28B01A9690FD000C23BF /* CTManualHeavyTableViewCell.m in Sources */,
 				C5E333C71A088F65004C2116 /* CTGoodShadowTableViewCell.m in Sources */,
 				C5E333E11A089175004C2116 /* CTBadShadowTableViewController.m in Sources */,
 				C5E333551A07E90F004C2116 /* main.m in Sources */,

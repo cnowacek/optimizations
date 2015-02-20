@@ -10,23 +10,28 @@
 
 #import "NSDateFormatter+CTHelper.h"
 
+#define kNumberOfRows 1000
+
+static NSString * const CellReuseIdentifier = @"DateCell";
+
 @implementation CTGoodDateTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"DateCell"];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CellReuseIdentifier];
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1000;
+    return kNumberOfRows;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DateCell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellReuseIdentifier forIndexPath:indexPath];
     
+    // Formatters should be reused!
     NSDateFormatter *dateFormatter = [NSDateFormatter sharedLongFormatter];
     NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
     

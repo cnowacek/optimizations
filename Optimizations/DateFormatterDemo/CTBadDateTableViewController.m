@@ -8,26 +8,30 @@
 
 #import "CTBadDateTableViewController.h"
 
+#define kNumberOfRows 1000
+
+static NSString * const CellReuseIdentifier = @"DateCell";
+static NSString * const DateFormat = @"hh:mm:ss.SSS a";
 
 @implementation CTBadDateTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"DateCell"];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CellReuseIdentifier];
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1000;
+    return kNumberOfRows;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DateCell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellReuseIdentifier forIndexPath:indexPath];
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    dateFormatter.dateFormat = @"hh:mm:ss.SSS a";
+    dateFormatter.dateFormat = DateFormat;
     NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
     
     cell.textLabel.text = dateString;

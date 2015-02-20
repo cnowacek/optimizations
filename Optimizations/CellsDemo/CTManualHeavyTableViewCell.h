@@ -1,5 +1,5 @@
 //
-//  CTBadReuseTableViewController.h
+//  CTHeavyTableViewCell.h
 //  Optimizations
 //
 //  Created by Charlie Nowacek on 11/3/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CTBadReuseTableViewController : UITableViewController
+@interface CTManualHeavyTableViewCell : UITableViewCell
 
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CTGoodReuseTableViewController : UITableViewController
+@interface CTGoodBlockTableViewController : UITableViewController
 
 @end

@@ -10,6 +10,9 @@
 
 #import "CTGoodShadowTableViewCell.h"
 
+#define kNumberOfRows 1000
+
+static NSString * const CellReuseIdentifier = @"ShadowCell";
 
 @implementation CTGoodShadowTableViewController
 
@@ -18,17 +21,17 @@
     
     self.tableView.backgroundColor = [UIColor whiteColor];
     
-    [self.tableView registerClass:[CTGoodShadowTableViewCell class] forCellReuseIdentifier:@"ShadowCell"];
+    [self.tableView registerClass:[CTGoodShadowTableViewCell class] forCellReuseIdentifier:CellReuseIdentifier];
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1000;
+    return kNumberOfRows;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ShadowCell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellReuseIdentifier forIndexPath:indexPath];
     
     return cell;
 }

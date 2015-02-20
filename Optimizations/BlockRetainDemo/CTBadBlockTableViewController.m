@@ -6,17 +6,21 @@
 //  Copyright (c) 2014 Crowdtilt. All rights reserved.
 //
 
-#import "CTBadReuseTableViewController.h"
+#import "CTBadBlockTableViewController.h"
 
 #import "CTHeavyTableViewCell.h"
 
-@interface CTBadReuseTableViewController ()
+#define kNumberOfRows 1000
+
+static NSString * const CellReuseIdentifier = @"HeavyCell";
+
+@interface CTBadBlockTableViewController ()
 
 @property (nonatomic, copy) void (^actionBlock)();
 
 @end
 
-@implementation CTBadReuseTableViewController
+@implementation CTBadBlockTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,13 +29,14 @@
         self.tableView.hidden = NO;
     };
     
+    [self.tableView registerClass:[CTHeavyTableViewCell class] forCellReuseIdentifier:CellReuseIdentifier];
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1000;
+    return kNumberOfRows;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [[CTHeavyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HeavyCell"];
+    UITableViewCell *cell = [[CTHeavyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellReuseIdentifier];
     
     return cell;
 }
