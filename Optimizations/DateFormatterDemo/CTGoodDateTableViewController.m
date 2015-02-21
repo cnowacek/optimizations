@@ -33,7 +33,8 @@ static NSString * const CellReuseIdentifier = @"DateCell";
     
     // Formatters should be reused!
     NSDateFormatter *dateFormatter = [NSDateFormatter sharedLongFormatter];
-    NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+    NSDate *date = [NSDate date];
+    NSString *dateString = [dateFormatter stringFromDate:date];
     
     cell.textLabel.text = dateString;
     

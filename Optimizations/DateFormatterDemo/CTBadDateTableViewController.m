@@ -32,7 +32,8 @@ static NSString * const DateFormat = @"hh:mm:ss.SSS a";
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.dateFormat = DateFormat;
-    NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+    NSDate *date = [NSDate date];
+    NSString *dateString = [dateFormatter stringFromDate:date];
     
     cell.textLabel.text = dateString;
 

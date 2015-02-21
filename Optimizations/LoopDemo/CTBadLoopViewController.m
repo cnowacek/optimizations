@@ -23,7 +23,7 @@
     
     for (int i=0; i<3; i++) {
         for (int j=0; j<kMaxCount; j++) {
-            NSString *string = [NSString stringWithFormat:@"%i", i];
+            NSString *string = @"Hey Charlie! Hey Charlie! Hey Charlie! Hey Charlie! Hey Charlie!";
             // Do something with our string
         }
     }
